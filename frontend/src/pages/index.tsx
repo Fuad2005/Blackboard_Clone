@@ -5,11 +5,11 @@ export default function Home() {
 
 
 
-  React.useEffect(() => {
-    if (!localStorage.getItem("user")) {
-      window.location.replace("/login");
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   if (!localStorage.getItem("user")) {
+  //     window.location.replace("/login");
+  //   }
+  // }, []);
 
 
   return (
